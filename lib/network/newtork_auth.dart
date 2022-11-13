@@ -38,7 +38,7 @@ class AuthService {
       if (e.code == 'User not found') {
         return 'Incorrect email.';
       } else if (e.code == 'wrong password') {
-        return 'Wrong password.';
+        return 'Incorrect password.';
       } else {
         return e.message;
       }
